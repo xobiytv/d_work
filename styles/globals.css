@@ -21,16 +21,13 @@
   );
   filter: blur(125px);
 }
-.menu-list {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  gap: 1rem;
-  backdrop-filter: blur(8px); /* Orqa fonni blur qilish */
-  background-color: rgba(0, 0, 0, 0.4); /* Orqa fon rangi va sharqirali oqim */
-  border-radius: 16px;
-  padding: 16px;
+
+@media(max-width:864px){
+  .ulNone{
+    display: none;
+  }
 }
+
 .hero-gradient {
   background: linear-gradient(
     97.86deg,

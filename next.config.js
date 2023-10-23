@@ -1,8 +1,11 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   experimental: {
     appDir: true,
   },
+  // Boshqa sozlar va sozlar ...
 };
 
-module.exports = nextConfig;
+// Yangi ko'rinish
+module.exports = {
+  // Boshqa sozlar va sozlar ...
+};

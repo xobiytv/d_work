@@ -13,7 +13,7 @@ const Feedback = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col mb-4`}
+      className={` mx-auto ${styles.flexCenter} flex-col mb-4`}
     >
       <motion.p
         variants={textContainer}
@@ -37,7 +37,7 @@ const Feedback = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: "false", amout: 0.25 }}
-      className={`${styles.innerWidth} mx-auto  flex lg:flex-row flex-col gap-6`}
+      className={` mx-auto  flex lg:flex-row flex-col gap-6`}
     >
 
 
@@ -54,7 +54,7 @@ const Feedback = () => (
 
           </div>
 
-          <p className="mt-[24px] font-normal sm:text-[20px] text-[16px] sm:leading-[45px] leading-[16px] text-[#fff] ">
+          <p className="mt-[24px] font-normal sm:text-[20px] text-[18px] sm:leading-[45px] leading-[25px] text-[#fff] ">
             “ {produc.text} ”
           </p>
         </motion.div>
