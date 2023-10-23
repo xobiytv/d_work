@@ -37,14 +37,14 @@ const Feedback = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: "false", amout: 0.25 }}
-      className={` mx-auto  flex lg:flex-row flex-col gap-6`}
+      className={` mx-auto justify-around  flex lg:flex-row flex-col gap-6`}
     >
 
 
       {product.map((produc) => (
         <motion.div key={produc.id}
           variants={fadeIn("right", "tween", 0.2, 1)}
-          className="flex-[0.5] lg:max-w-[370px] flex justify-start flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6a6a6a] "
+          className="flex-[0.5] lg:max-w-[370px] flex items-center justify-start flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6a6a6a] "
         >
           <div className="feedback-gradient" />
           <div>
