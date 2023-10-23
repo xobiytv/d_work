@@ -15,7 +15,7 @@ const Footer = () => (
   >
     <div className="footer-gradient" />
 
-    <div className={ 'mx-auto flex flex-col gap-8 '} id="contact">
+    <div className={'mx-auto flex flex-col gap-8 '} id="contact">
       <div className="flex items-center justify-between flex-wrap gap-5 ">
         <h4 className="font-bold md:text-[64px] text-[44px] text-[#fff] ">
           Birgalikda rivojlanamiz
@@ -40,7 +40,7 @@ const Footer = () => (
 
         <div className="flex items-center justify-between flex-wrap gap-4">
           <h4 className="font-extrabold text-[24px] text-[#fff] ">
-          D-wORk
+            D-wORk
           </h4>
           <p className="font-normal text-[14px] text-[#fff] opacity-50  ">
             Copyright © 2021 - 2023 D-wORk. All rights reserved.
@@ -48,10 +48,13 @@ const Footer = () => (
 
           <div className="flex gap-4">
             {socials.map((social) => (
-              <a href={social.link}>
-                <img key={social.name} src={social.url} alt={social.name} className="w-[24px] h-[24px] object-contain cursor-pointer " />
+              <>
+                <a href={social.link}>
+                  <img key={social.name} src={social.url} alt={social.name} className="w-[24px] h-[24px] object-contain cursor-pointer " />
 
-              </a>
+                </a>
+              </>
+
             ))}
           </div>
         </div>
