@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 
 import styles from "../styles";
-import { newVariants } from "../utils/motion";
+// import { newVariants } from "../utils/motion";
 import { Navbars } from "../constants";
 
 const Navbar = () => {
@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <motion.nav
-      variants={newVariants}
+      // variants={newVariants}
       initial="hidden"
       whileInView="show"
       className={`${styles.xPaddings} py-8 relative`}
