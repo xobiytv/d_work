@@ -13,7 +13,7 @@ import { InsightCard } from "../components";
 import {insights} from '../constants'
 
 const Insightsa = () => (
-  <section className={`${styles.paddings} relative z-10`}>
+  <section className={`${styles.paddings} relative z-10`} id="Insightsa">
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -27,16 +27,15 @@ const Insightsa = () => (
         className="font-normal text-[14px]
       text-secondary-white"
       >
-        | Insight
+        | Hizmatlarimiz
       </motion.p>
-      {/* <TypingText title="| About Metaversus" textStyles="text-center" /> */}
 
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-bold md:text-[54px]  text-[40px]
           text-center text-[#fff]  "
       >
-        Insight about metaverse
+        Sizga qanday yechimlar taklif qila olamiz
       </motion.p>
 
       <div className="mt-[50px] flex flex-col    gap-[30px] ">

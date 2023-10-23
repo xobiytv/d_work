@@ -1,7 +1,7 @@
 // import Swiper from 'swiper';
 // import  Swiper  from "../components/Swiper";
 import { Footer, Navbar } from "../components";
-import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World } from '../sections';
+import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew } from '../sections';
 
 const Page = () => (
   <div className="bg-primary-black overflow-hidden">
@@ -15,24 +15,23 @@ const Page = () => (
     <div className="relative">
       <GetStarted />
       <div className="gradient-04 z-0" />
-      <WhatsNew />
-    </div>
-    <World />
-    <div className="relative">
-      
-      <Insights />
-      <div className="gradient-05 z-0" />
       <Feedback />
+
     </div>
     <div className="relative">
-      
-      {/* <Swiper /> */}
-      {/* <div className="gradient-05 z-0" /> */}
-      
+      <WhatsNew />
+
+      <div className="gradient-05 z-0" />
+      <Insights />
+    </div>
+    <div className="relative">
+
+
+
     </div>
 
 
-    
+
     <Footer />
   </div>
 );

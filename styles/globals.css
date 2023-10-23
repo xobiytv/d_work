@@ -13,23 +13,30 @@
 .gradient-01 {
   background-image: linear-gradient(
     270deg,
-    hsl(295deg 76% 51%) 0%,
-    hsl(284deg 70% 73%) 26%,
-    hsl(257deg 70% 86%) 39%,
-    hsl(202deg 92% 90%) 50%,
-    hsl(215deg 77% 81%) 61%,
-    hsl(221deg 73% 70%) 74%,
-    hsl(220deg 76% 51%) 100%
+    
+    #fff685 0%,
+    #00ddff 53.65%,
+    #0049b7 100%  
+   
   );
   filter: blur(125px);
 }
-
+.menu-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+  backdrop-filter: blur(8px); /* Orqa fonni blur qilish */
+  background-color: rgba(0, 0, 0, 0.4); /* Orqa fon rangi va sharqirali oqim */
+  border-radius: 16px;
+  padding: 16px;
+}
 .hero-gradient {
   background: linear-gradient(
     97.86deg,
-    #a509ff 0%,
-    #34acc7 53.65%,
-    #a134c7 100%
+    #fff685 0%,
+    #00ddff 53.65%,
+    #0049b7 100%
   );
 }
 
@@ -59,7 +66,7 @@
   left: 20%;
   top: 5%;
 
-  background: rgba(149, 66, 232, 0.35);
+  background: #fff78560;
   filter: blur(175px);
   transform: rotate(-114.2deg);
 }
@@ -91,7 +98,7 @@
   left: 0px;
   top: 0px;
 
-  background: #8d39a3;
+  background: #00ddff;
   filter: blur(175px);
 }
 
@@ -102,6 +109,6 @@
   left: 37%;
   bottom: 0;
 
-  background: #65c4fa;
+  background: #0049b7;
   filter: blur(150px);
 }

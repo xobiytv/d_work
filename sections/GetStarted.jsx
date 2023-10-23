@@ -12,7 +12,7 @@ import { StartSteps, TitleText, TypingText } from "../components";
 import { startingFeatures } from "../constants";
 
 const GetStarted = () => (
-  <section className={`${styles.paddings} relative z-10`}>
+  <section className={`${styles.paddings} relative z-10`}id="GetStarted">
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -25,8 +25,8 @@ const GetStarted = () => (
         className={`flex-1 ${styles.flexCenter} `}
       >
         <img
-          src="/get-started.png"
-          alt="get-started"
+          src="/what.png"
+          alt="Yechim"
           className="w-[90%] h-[90%] object-contain "
         />
       </motion.div>
@@ -39,14 +39,14 @@ const GetStarted = () => (
           className="font-normal text-[14px]
       text-secondary-white"
         >
-          | How Metaversus Works
+          | Biz sizga kerakmiz
         </motion.p>
         <motion.p
           variants={fadeIn("up", "tween", 0.2, 1)}
           className="mt-[8px ] font-bold md:text-[54px]  text-[40px]
            text-[#fff]  "
         >
-          Get started with just a few clicks
+          Nima uchun sizga web sayt kerak
         </motion.p>
         <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px] ">
           {startingFeatures.map((feature, index) => (

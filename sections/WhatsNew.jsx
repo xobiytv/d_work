@@ -12,7 +12,7 @@ import { NewFeatures, StartSteps, TitleText, TypingText } from "../components";
 import { newFeatures, startingFeatures } from "../constants";
 
 const WhatsNew = () => (
-  <section className={`${styles.paddings} relative z-10`}>
+  <section className={`${styles.paddings} relative z-10`} id="WhatsNew">
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -29,14 +29,15 @@ const WhatsNew = () => (
           className="font-normal text-[14px]
       text-secondary-white"
         >
-          | What's New?
+          | Yechimlar
         </motion.p>
         <motion.p
           variants={fadeIn("up", "tween", 0.2, 1)}
           className="mt-[8px ] font-bold md:text-[54px]  text-[40px]
            text-[#fff]  "
         >
-          What's new about Metaversus?
+          Biz sizga yordam beramiz
+          
         </motion.p>
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px] ">
           {newFeatures.map((feature) => (
@@ -49,7 +50,7 @@ const WhatsNew = () => (
         className={`flex-1 ${styles.flexCenter} `}
       >
         <img
-          src="/whats-new.png"
+          src="/whu.png"
           alt="get-started"
           className="w-[90%] h-[90%] object-contain "
         />

@@ -24,7 +24,7 @@ const Explore = () => {
           className="font-normal text-[14px]
       text-secondary-white"
         >
-          | The World
+          | Loyhalar
         </motion.p>
         {/* <TypingText title="| About Metaversus" textStyles="text-center" /> */}
 
@@ -33,7 +33,7 @@ const Explore = () => {
           className="mt-[8px ] font-bold md:text-[54px]  text-[40px]
           text-center text-[#fff]  "
         >
-          Choose the world you want <br /> to explore
+          Ishlagan loyohlarim 
         </motion.p>
 
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5 ">
