@@ -6,11 +6,10 @@ import { motion } from "framer-motion";
 import {
   fadeIn,
   staggerContainer,
-  planetVariants,
   textContainer,
 } from "../utils/motion";
-import { NewFeatures, StartSteps, TitleText, TypingText } from "../components";
-import { newFeatures, startingFeatures } from "../constants";
+// import { NewFeatures, StartSteps, TitleText, TypingText } from "../components";
+// import { newFeatures, startingFeatures } from "../constants";
 
 
 const World = () => (

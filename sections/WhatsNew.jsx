@@ -8,8 +8,8 @@ import {
   planetVariants,
   textContainer,
 } from "../utils/motion";
-import { NewFeatures, StartSteps, TitleText, TypingText } from "../components";
-import { newFeatures, startingFeatures } from "../constants";
+import { NewFeatures } from "../components";
+import { newFeatures } from "../constants";
 
 const WhatsNew = () => (
   <section className={`${styles.paddings} relative z-10`} id="WhatsNew">

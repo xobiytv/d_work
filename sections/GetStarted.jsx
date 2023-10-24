@@ -8,7 +8,7 @@ import {
   planetVariants,
   textContainer,
 } from "../utils/motion";
-import { StartSteps, TitleText, TypingText } from "../components";
+import { StartSteps } from "../components";
 import { startingFeatures } from "../constants";
 
 const GetStarted = () => (
