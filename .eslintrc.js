@@ -1,3 +1,4 @@
+
 module.exports = {
   env: {
     browser: true,
@@ -6,6 +7,9 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'airbnb',
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:@next/next/recommended',
   ],
   parserOptions: {
     ecmaFeatures: {
@@ -16,7 +20,16 @@ module.exports = {
   },
   plugins: [
     'react',
+    'import'
   ],
+
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+    },
+  },
   rules: {
     'react/no-unescaped-entities': 0,
     'eslintreact/no-danger': 0,

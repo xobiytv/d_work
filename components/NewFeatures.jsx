@@ -1,4 +1,4 @@
-
+import React from 'react';
 import styles from '../styles'
 
 const NewFeatures = ({ imgUrl, title, subtitle }) => (

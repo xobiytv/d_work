@@ -1,6 +1,6 @@
 // import Swiper from 'swiper';
-// import  Swiper  from "../components/Swiper";
-import { Footer, Navbar } from "../components";
+// import Swiper  from "../components/Swiper";
+import { Footer, Navbar } from '../components';
 import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew } from '../sections';
 
 const Page = () => (
@@ -16,22 +16,13 @@ const Page = () => (
       <GetStarted />
       <div className="gradient-04 z-0" />
       <Feedback />
-
     </div>
     <div className="relative">
       <WhatsNew />
-
       <div className="gradient-05 z-0" />
       <Insights />
     </div>
-    <div className="relative">
-
-
-
-    </div>
-
-
-
+    <div className="relative"></div>
     <Footer />
   </div>
 );
