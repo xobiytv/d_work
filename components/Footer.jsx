@@ -46,17 +46,17 @@ const Footer = () => (
             Copyright © 2021 - 2023 D-wORk. All rights reserved.
           </p>
 
-          <div className="flex gap-4">
-            {socials.map((social) => (
-              <>
+          <motion.div className="flex gap-4">
+            {socials.map((social, index) => (
+              <div key={index}>
                 <a href={social.link}>
                   <img key={social.name} src={social.url} alt={social.name} className="w-[24px] h-[24px] object-contain cursor-pointer " />
 
                 </a>
-              </>
+              </div>
 
             ))}
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>
